@@ -7,9 +7,9 @@ var fiftyfifty = [
 var count=0
 let i =0;
 console.log("kya ap  5050 lifeline  lena chate ho , to  enter kare  '5050' ")
-for ( let i=0; i<question_list.length; i++){
+for ( let i=0; i<questionlist.length; i++){
     console.log(questionlist[i])
-    for (let j=0;  j<optionsist[i].length; j++){
+    for (let j=0;  j<optionslist[i].length; j++){
         console.log(optionslist[i][j])
     } 
     let user= (parseInt(prompt("enter your number option: ")))
